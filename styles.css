@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./Images/gradient-bg.jpg');
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    
+}
+.tic-tac-toe{
+    color: white;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    aspect-ratio: 1/1;
+    border: 1px solid  rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 1rem;
+    
+
+}
+.box{
+      display: flex;
+      align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+}
+.box1, .box2, .box4, .box5{
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
