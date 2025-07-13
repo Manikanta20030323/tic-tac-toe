@@ -41,6 +41,7 @@
     justify-content: center;
     font-size: 1.5em;
     font-weight: bold;
+    cursor: pointer;
 }
 .box1, .box2, .box4, .box5{
     border-right: 1px solid rgba(255, 255, 255, 0.25);
@@ -51,4 +52,13 @@
 }
 .box7, .box8{
      border-right: 1px solid rgba(255, 255, 255, 0.25);
+}
+.inactive{
+    display: none;
+}
+.active{
+    display: flex;
+}
+.background-color{
+    background-color: green;
 }
