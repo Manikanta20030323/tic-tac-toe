@@ -67,10 +67,18 @@ function findWinner(){
         }
     })
 
-
+    let count=0;
     gridArray.forEach((ele)=>{
-        if(ele=="")return;
+        if(ele!="")count++;
     });
+
+    if(count==9)
+    {
+         newgame.classList.add('active');
+         GameStatus.textContent=  `No Winner`;
+    }
+
+
 
 }
 
